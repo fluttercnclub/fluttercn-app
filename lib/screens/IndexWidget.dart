@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttercn_app/components/index/TopBarWidget.dart';
 
 class IndexWidget extends StatefulWidget {
   @override
@@ -9,7 +10,12 @@ class _IndexWidgetState extends State<IndexWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('首页')
+      padding: EdgeInsets.only(left: 15.0, right: 15.0),
+      child: Column(
+        children: <Widget>[
+          TopBarWidget(),
+        ],
+      )
     );
   }
 }

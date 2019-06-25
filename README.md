@@ -1,16 +1,24 @@
-# fluttercn_app
+# FlutterCN APP端规划列表
 
-A new Flutter project.
+### 模块
 
-## Getting Started
++ 发现
++ 话题
++ 消息
++ 我的
 
-This project is a starting point for a Flutter application.
+#### 发现模块
 
-A few resources to get you started if this is your first Flutter project:
+发现模块主要展示 顶部搜索栏、Banner、置顶通知、精华帖子、热门项目
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#### 话题模块
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+话题模块为顶部Tab切换，底部为帖子列表，点进去为详情页，详情页可评论
+
+#### 消息模块
+
+消息模块展示收到的消息
+
+#### 我的模块
+
+我的模块包含的功能主要是个人信息展示，登录注册入口，帮助、关于、等。用户可以编辑资料。
